@@ -58,6 +58,6 @@ o_seg_n <= "1000000" when "0000",
            "0100111" when "1100",
            "0100001" when "1101",
            "0000110" when "1110",
-           "0001110" when "1111";
+           "0001110" when others;
 An<= "1110" when btnC='1' else "1111";
 end Behavioral;
